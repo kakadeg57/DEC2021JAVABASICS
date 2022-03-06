@@ -20,8 +20,6 @@ public interface RBI1 extends RBI2,RBI3{
    class FirefoxDriver
    
    
-   
-
 	*/
 	
 	void deposit();  // public abstract
