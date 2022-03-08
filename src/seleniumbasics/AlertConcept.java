@@ -39,11 +39,7 @@ public class AlertConcept {
 		else {
 			System.out.println("Test is failed");
 		}
-		
-		
-		
-		
-		
+			
 		
 	}
 
