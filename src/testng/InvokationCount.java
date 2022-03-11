@@ -5,41 +5,31 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
-// account page test:
 
-public class Priority {
-	WebDriver driver;
+public class InvokationCount {
+	
+	WebDriver driver; // Instance variable: we can use under the class inside every methods
+	
     @BeforeMethod
     public void init() {
 	System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
-	driver = new ChromeDriver();
+	 driver = new ChromeDriver();
 	driver.get("https://www.google.com/");
     }
-	@Test(priority = 1)
+	@Test(priority = 1,invocationCount = 3) // 3 times:
 	public void googleSearchTest() {
-		driver.findElement(By.name("p")).sendKeys("TestNG");
+		driver.findElement(By.name("q")).sendKeys("TestNG");
 	}	
 	@Test(priority = 2)
-	public void gmailLinkTest() throws InterruptedException {
+	public void gmailLinkTest() {
 		driver.findElement(By.linkText("Gmail")).isDisplayed();
 	}
-	@Test(priority = 3,enabled = false)
-	public void imageLinkTest1() {
-		driver.findElement(By.linkText("Ima")).isDisplayed();
-		System.out.println("rest of the code");
-	}
 	
-	@Ignore
-	@Test(priority = 4)
-	public void imageLinkTest2() {
-		driver.findElement(By.linkText("Image")).isDisplayed();
-		System.out.println("rest of the code");
-	}
 	
 	@AfterMethod
 	public void closeResources() {
 		driver.close();
 	}
+
 }

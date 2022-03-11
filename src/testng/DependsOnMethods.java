@@ -10,7 +10,7 @@ public class DependsOnMethods {
 	public void initilization() {
 		System.out.println("chrome driver instance opened");
 	}
-	@Test(priority = 1)
+	@Test(priority = 1) // 5 TIMES:
 	public void validateloginTest() {	
 		System.out.println("Login successfully");
 		int a = 1/0;
