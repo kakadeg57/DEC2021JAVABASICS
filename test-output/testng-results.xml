@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="56442" started-at="2022-03-11T22:30:23 IST" finished-at="2022-03-11T22:31:19 IST">
+  <suite name="Suite" duration-ms="93937" started-at="2022-03-17T22:31:48 IST" finished-at="2022-03-17T22:33:22 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="56442" started-at="2022-03-11T22:30:23 IST" finished-at="2022-03-11T22:31:19 IST">
+    <test name="Test" duration-ms="93937" started-at="2022-03-17T22:31:48 IST" finished-at="2022-03-17T22:33:22 IST">
       <class name="testng.LoginPageTest">
-        <test-method status="PASS" signature="init(java.lang.String,java.lang.String)[pri:0, instance:testng.LoginPageTest@d44fc21]" name="init" is-config="true" duration-ms="40241" started-at="2022-03-11T22:30:23 IST" finished-at="2022-03-11T22:31:03 IST">
+        <test-method status="PASS" signature="init(java.lang.String,java.lang.String)[pri:0, instance:testng.LoginPageTest@7a1ebcd8]" name="init" is-config="true" duration-ms="18763" started-at="2022-03-17T22:31:49 IST" finished-at="2022-03-17T22:32:08 IST">
           <params>
             <param index="0">
               <value>
@@ -23,11 +23,151 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="validateLoginTest()[pri:0, instance:testng.LoginPageTest@d44fc21]" name="validateLoginTest" duration-ms="12041" started-at="2022-03-11T22:31:03 IST" finished-at="2022-03-11T22:31:15 IST">
+        <test-method status="PASS" signature="validateLoginTest1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testng.LoginPageTest@7a1ebcd8]" name="validateLoginTest1" duration-ms="4937" started-at="2022-03-17T22:32:08 IST" data-provider="createEmp" finished-at="2022-03-17T22:32:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ganesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kakade]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[101.0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateLoginTest -->
-        <test-method status="PASS" signature="closeResources()[pri:0, instance:testng.LoginPageTest@d44fc21]" name="closeResources" is-config="true" duration-ms="3991" started-at="2022-03-11T22:31:15 IST" finished-at="2022-03-11T22:31:19 IST">
+        </test-method> <!-- validateLoginTest1 -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:testng.LoginPageTest@7a1ebcd8]" name="closeResources" is-config="true" duration-ms="370" started-at="2022-03-17T22:32:13 IST" finished-at="2022-03-17T22:32:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+        <test-method status="PASS" signature="init(java.lang.String,java.lang.String)[pri:0, instance:testng.LoginPageTest@7a1ebcd8]" name="init" is-config="true" duration-ms="18397" started-at="2022-03-17T22:32:13 IST" finished-at="2022-03-17T22:32:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="validateLoginTest1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testng.LoginPageTest@7a1ebcd8]" name="validateLoginTest1" duration-ms="4978" started-at="2022-03-17T22:32:32 IST" data-provider="createEmp" finished-at="2022-03-17T22:32:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[102.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginTest1 -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:testng.LoginPageTest@7a1ebcd8]" name="closeResources" is-config="true" duration-ms="528" started-at="2022-03-17T22:32:37 IST" finished-at="2022-03-17T22:32:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+        <test-method status="PASS" signature="init(java.lang.String,java.lang.String)[pri:0, instance:testng.LoginPageTest@7a1ebcd8]" name="init" is-config="true" duration-ms="19204" started-at="2022-03-17T22:32:37 IST" finished-at="2022-03-17T22:32:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="validateLoginTest1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testng.LoginPageTest@7a1ebcd8]" name="validateLoginTest1" duration-ms="5301" started-at="2022-03-17T22:32:56 IST" data-provider="createEmp" finished-at="2022-03-17T22:33:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[103.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginTest1 -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:testng.LoginPageTest@7a1ebcd8]" name="closeResources" is-config="true" duration-ms="343" started-at="2022-03-17T22:33:02 IST" finished-at="2022-03-17T22:33:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+        <test-method status="PASS" signature="init(java.lang.String,java.lang.String)[pri:0, instance:testng.LoginPageTest@7a1ebcd8]" name="init" is-config="true" duration-ms="14876" started-at="2022-03-17T22:33:02 IST" finished-at="2022-03-17T22:33:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="validateLoginTest1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testng.LoginPageTest@7a1ebcd8]" name="validateLoginTest1" duration-ms="4885" started-at="2022-03-17T22:33:17 IST" data-provider="createEmp" finished-at="2022-03-17T22:33:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amol ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Adik]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[104.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginTest1 -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:testng.LoginPageTest@7a1ebcd8]" name="closeResources" is-config="true" duration-ms="240" started-at="2022-03-17T22:33:22 IST" finished-at="2022-03-17T22:33:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeResources -->

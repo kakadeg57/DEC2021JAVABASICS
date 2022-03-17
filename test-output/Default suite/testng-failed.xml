@@ -5,8 +5,8 @@
     <classes>
       <class name="testng.LoginPageTest">
         <methods>
-          <include name="validateLoginTest"/>
           <include name="closeResources"/>
+          <include name="validateLoginTest1"/>
           <include name="init"/>
         </methods>
       </class> <!-- testng.LoginPageTest -->
